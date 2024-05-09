@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="myHobbies.html">My Hobbies</a></li>
+            <li><a href="homeTown.html">Home Town</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <h1>Hello, Welcome to HTML,CSS,Javascript Website!</h1>
+    <button onclick="onClickButton( 'You have clicked Button 1')">Button 1</button>
+    <button onclick="onClickButton('You have clicked Button 2')">Button 2</button>
+    <button onclick="onClickButton('You have clicked Button 3')">Button 3</button>
+    
+    <p id="click-content">OnLoad content, You can change it by clicking above buttons!.</p>
+    
+    <input type="text" id="input-field" placeholder="Enter hello world">
+    <button onclick="checkTextField()">Click Me!</button>
+    <p id="error" style="color: rgb(215, 57, 57);"></p>
+    
+    <h2>Javascript Accordion Example</h2>
+	<button class="acc-btn">Kanaka Durga Temple</button>
+	<div class="acc-desc">
+		<p>A famous Hindu temple located on Indrakeeladri Hill overlooking the city.</p>
+	</div>
+	
+	<button class="acc-btn">VMC Flower Clock</button>
+	<div class="acc-desc">
+		<p>One of the largest floral clocks in India, located in Vijayawada.</p>
+	</div>
+	
+	<button class="acc-btn">Gandhi Hill</button>
+	<div class="acc-desc">
+		<p>A memorial dedicated to Mahatma Gandhi, offering panoramic views of the city.</p>
+	</div>
+    </div>
+    </div>
+</body>
+<script src="assets/common.js"></script>
+</html>
